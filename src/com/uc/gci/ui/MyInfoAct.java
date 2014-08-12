@@ -10,7 +10,7 @@ import com.uc.gci.R;
 /**
  * @ClassName: NoticeAct
  * @Description: TODO
- * @author nickLuS	
+ * @author nickLu	
  * @date 2014-8-11 下午9:40:22
  * 
  */
