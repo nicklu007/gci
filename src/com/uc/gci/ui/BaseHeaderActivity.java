@@ -1,5 +1,6 @@
 package com.uc.gci.ui;
 
+import android.graphics.Color;
 import android.view.View;
 
 import com.lqk.framework.inject.InjectInit;
@@ -38,7 +39,7 @@ public abstract class BaseHeaderActivity extends HeaderActivity {
 	@Override
 	protected HeaderConfig getHeaderConfig(){
 		HeaderConfig config=new HeaderConfig();
-		config.top_bg=R.color.white;
+		config.top_bg=Color.WHITE;
 		return getHeaderConfig(config);
 	}
 	protected abstract HeaderConfig getHeaderConfig(HeaderConfig config);

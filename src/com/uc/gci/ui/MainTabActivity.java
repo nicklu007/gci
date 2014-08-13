@@ -1,6 +1,7 @@
 package com.uc.gci.ui;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.media.audiofx.NoiseSuppressor;
 import android.os.Bundle;
 
@@ -21,7 +22,7 @@ public class MainTabActivity extends TabBarActivity {
 		@Override
 		protected void onCreate(Bundle savedInstanceState) {
 			super.onCreate(savedInstanceState);
-			setBottomBg(R.color.white);
+			setBottomBg(Color.WHITE);
 			
 			TabConfig c1=	new TabConfig(Contants.NOTICE,"通知公告", R.drawable.menu_plan_icon_s,
 					R.drawable.menu_plan_icon_n, new Intent(this,NoticeAct.class), NoticeAct.class);
